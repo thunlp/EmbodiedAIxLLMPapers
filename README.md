@@ -32,6 +32,19 @@ This is a paper list on integrating large language models with embodied AI. Larg
   <img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot, robot--arm-20b2aa?style=flat-square">
   
+* **Language Models Meet World Models: Embodied Experiences Enhance Language Models.** Preprint.
+
+  *Jiannan Xiang, Tianhua Tao, Yi Gu, Tianmin Shu, Zirui Wang, Zichao Yang, Zhiting Hu* [[pdf](https://arxiv.org/abs/2305.10626)], [[page](https://github.com/szxiangjn/world-model-for-language-model)], 2023.5
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+  
+* **AlphaBlock: Embodied Finetuning for Vision-Language Reasoning in Robot Manipulation.** Preprint.
+
+  *Chuhao Jin, Wenhui Tan, Jiange Yang, Bei Liu, Ruihua Song, Limin Wang, Jianlong Fu* [[pdf](https://arxiv.org/abs/2305.18898)], [[video](https://www.youtube.com/watch?v=ayAzID1_qQk)], 2023.5
+  <img align="center" height="20" src="https://img.shields.io/badge/AlphaBlock-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-20b2aa?style=flat-square">
+
 * **RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control.** Preprint.
 
     *Anthony Brohan, Noah Brown, Justice Carbajal, Yevgen Chebotar, Xi Chen, Krzysztof Choromanski, Tianli Ding, Danny Driess, Avinava Dubey, Chelsea Finn, Pete Florence, Chuyuan Fu, Montse Gonzalez Arenas, Keerthana Gopalakrishnan, Kehang Han, Karol Hausman, Alexander Herzog, Jasmine Hsu, Brian Ichter, Alex Irpan, Nikhil Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Isabel Leal, Lisa Lee, Tsang-Wei Edward Lee, Sergey Levine, Yao Lu, Henryk Michalewski, Igor Mordatch, Karl Pertsch, Kanishka Rao, Krista Reymann, Michael Ryoo, Grecia Salazar, Pannag Sanketi, Pierre Sermanet, Jaspiar Singh, Anikait Singh, Radu Soricut, Huong Tran, Vincent Vanhoucke, Quan Vuong, Ayzaan Wahid, Stefan Welker, Paul Wohlhart, Jialin Wu, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Tianhe Yu, Brianna Zitkovich* [[pdf](https://arxiv.org/abs/2307.15818)], [[page](https://general-pattern-machines.github.io/)], 2023.7
@@ -39,6 +52,13 @@ This is a paper list on integrating large language models with embodied AI. Larg
   <img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-20b2aa?style=flat-square">
 
+* **Embodied Task Planning with Large Language Models.** Preprint.
+
+    *Zhenyu Wu, Ziwei Wang, Xiuwei Xu, Jiwen Lu, Haibin Yan* [[pdf](https://arxiv.org/abs/2307.01848)], [[page](https://gary3410.github.io/TaPA/)], 2023.7
+  <img align="center" height="20" src="https://img.shields.io/badge/TaPA-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+  
 * **Large Language Models as General Pattern Machines.** CoRL 2023.
 
     *Suvir Mirchandani, Fei Xia, Pete Florence, Brian Ichter, Danny Driess, Montserrat Gonzalez Arenas, Kanishka Rao, Dorsa Sadigh, Andy Zeng* [[pdf](https://arxiv.org/abs/2307.04721)], [[page](https://robotics-transformer2.github.io/)], 2023.7
@@ -149,6 +169,19 @@ This is a paper list on integrating large language models with embodied AI. Larg
   *Hongxin Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan* [[pdf](https://arxiv.org/abs/2307.02485)], [[page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)], 2023.7
   <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+  
+* **Building Cooperative Embodied Agents Modularly with Large Language Models.** Preprint.
+
+  *Hongxin Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan* [[pdf](https://arxiv.org/abs/2307.02485)], [[page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)], 2023.7
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+  
+* **JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models.** Preprint.
+
+  *Zihao Wang, Shaofei Cai, Anji Liu, Yonggang Jin, Jinbing Hou, Bowei Zhang, Haowei Lin, Zhaofeng He, Zilong Zheng, Yaodong Yang, Xiaojian Ma, Yitao Liang* [[pdf](https://arxiv.org/abs/2311.05997)], [[page](https://craftjarvis.org/JARVIS-1)], 2023.11
+  <img align="center" height="20" src="https://img.shields.io/badge/JARVIS--1-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square">
   
 <br/>
 
