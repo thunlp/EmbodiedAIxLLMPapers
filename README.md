@@ -171,7 +171,7 @@ This is a paper list on integrating large language models with embodied AI. Larg
 * **Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach.** Preprint.
 
   *Bin Hu, Chenyang Zhao, Pu Zhang, Zihao Zhou, Yuanhang Yang, Zenglin Xu, Bin Liu* [[pdf](https://arxiv.org/abs/2306.03604)], [[page](https://github.com/ZJLAB-AMMI/LLM4RL)], 2023.8
-  <img align="center" height="20" src="https://img.shields.io/badge/When2Ask--1-20b2aa?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/When2Ask-20b2aa?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/game, robot-gray?style=flat-square">
   
 * **JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models.** Preprint.
