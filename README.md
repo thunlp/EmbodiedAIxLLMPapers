@@ -5,11 +5,11 @@ This is a paper list on integrating large language models with embodied AI. Larg
 ### Keywords Convention
 <p><img align="center" height="20" src="https://img.shields.io/badge/GATO-52b5f7?style=flat-square"> The abbreviation of the work. </p>
 <p><img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square"> The role of LLM in the work. </p> 
-<p><img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square"> The mainly explored tasks of the work. </p>
+<p><img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square"> The mainly explored domains of the work. </p>
 
 ## Papers
 
-### Embodied Model
+### Embodied LLM
 
 * **A Generalist Agent.** TMLR 2022.
 
@@ -73,11 +73,13 @@ This is a paper list on integrating large language models with embodied AI. Larg
   <img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot, robot--arm-20b2aa?style=flat-square">
 
-### Planning, Tool Using and Beyond (without training)
+<br/>
+
+### LLM for Planning, Tool Using and Beyond (without training)
 
 * **Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents.** ICML 2022.
 
-  *Wenlong Huang, Pieter Abbeel, Deepak Pathak, Igor Mordatch* [[pdf](https://arxiv.org/abs/2201.07207)], [[page](https://huangwl18.github.io/language-planner)], 2023.1
+  *Wenlong Huang, Pieter Abbeel, Deepak Pathak, Igor Mordatch* [[pdf](https://arxiv.org/abs/2201.07207)], [[page](https://huangwl18.github.io/language-planner)], 2022.1
   <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
 
@@ -95,6 +97,25 @@ This is a paper list on integrating large language models with embodied AI. Larg
   <img align="center" height="20" src="https://img.shields.io/badge/tool-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-20b2aa?style=flat-square">
 
+* **Code as Policies: Language Model Programs for Embodied Control.** ICRA 2023.
+
+  *Jacky Liang, Wenlong Huang, Fei Xia, Peng Xu, Karol Hausman, Brian Ichter, Pete Florence, Andy Zeng* [[pdf](https://arxiv.org/abs/2209.07753)], [[page](https://code-as-policies.github.io/)], 2022.9
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-20b2aa?style=flat-square">
+  
+* **ProgPrompt: Generating Situated Robot Task Plans using Large Language Models.** ICRA 2023.
+
+  *Ishika Singh, Valts Blukis, Arsalan Mousavian, Ankit Goyal, Danfei Xu, Jonathan Tremblay, Dieter Fox, Jesse Thomason, Animesh Garg* [[pdf](https://arxiv.org/abs/2209.11302)], [[page](https://progprompt.github.io/)], 2022.9
+  <img align="center" height="20" src="https://img.shields.io/badge/ProgPrompt-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot, robot--arm-20b2aa?style=flat-square">
+
+* **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models.** Preprint.
+
+  *Chan Hee Song, Jiaman Wu, Clayton Washington, Brian M. Sadler, Wei-Lun Chao, Yu Su* [[pdf](https://arxiv.org/abs/2212.04088)], [[page](https://dki-lab.github.io/LLM-Planner/)], 2022.12
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+  
 * **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents.** NeurIPS 2023.
 
   *Zihao Wang, Shaofei Cai, Anji Liu, Xiaojian Ma, Yitao Liang* [[pdf](https://arxiv.org/abs/2302.01560)], [[page](https://github.com/CraftJarvis/MC-Planner)], 2023.2
@@ -123,11 +144,19 @@ This is a paper list on integrating large language models with embodied AI. Larg
   <img align="center" height="20" src="https://img.shields.io/badge/tool-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-20b2aa?style=flat-square">
 
-### Supervision
+* **Building Cooperative Embodied Agents Modularly with Large Language Models.** Preprint.
+
+  *Hongxin Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan* [[pdf](https://arxiv.org/abs/2307.02485)], [[page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)], 2023.7
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+  
+<br/>
+
+### LLM for Supervision
 
 * **Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling.** ICML 2023.
 
   *Kolby Nottingham, Prithviraj Ammanabrolu, Alane Suhr, Yejin Choi, Hannaneh Hajishirzi, Sameer Singh, Roy Fox* [[pdf](https://arxiv.org/abs/2301.12050)], [[page](https://deckardagent.github.io/)], 2023.1
   <img align="center" height="20" src="https://img.shields.io/badge/DECKARD-52b5f7?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/supervisor-green?style=flat-square">
-  <img align="center" height="20" src="https://img.shields.io/badge/game--arm-20b2aa?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square">
