@@ -31,6 +31,7 @@ This is a paper list on integrating large language models with embodied AI. Larg
 * **Language Models Meet World Models: Embodied Experiences Enhance Language Models.** Preprint.
 
   *Jiannan Xiang, Tianhua Tao, Yi Gu, Tianmin Shu, Zirui Wang, Zichao Yang, Zhiting Hu* [[pdf](https://arxiv.org/abs/2305.10626)], [[page](https://github.com/szxiangjn/world-model-for-language-model)], 2023.5
+  <img align="center" height="20" src="https://img.shields.io/badge/E2WM-20b2aa?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot-gray?style=flat-square">
   
 * **AlphaBlock: Embodied Finetuning for Vision-Language Reasoning in Robot Manipulation.** Preprint.
@@ -101,6 +102,11 @@ This is a paper list on integrating large language models with embodied AI. Larg
   <img align="center" height="20" src="https://img.shields.io/badge/SMs-20b2aa?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-gray?style=flat-square">
 
+* **Inner Monologue: Embodied Reasoning through Planning with Language Models.** CoRL 2022.
+
+  *Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, Brian Ichter* [[pdf](https://arxiv.org/abs/2207.05608)], [[page](https://innermonologue.github.io/)], 2022.7
+  <img align="center" height="20" src="https://img.shields.io/badge/robot, robot--arm-gray?style=flat-square">
+
 * **Code as Policies: Language Model Programs for Embodied Control.** ICRA 2023.
 
   *Jacky Liang, Wenlong Huang, Fei Xia, Peng Xu, Karol Hausman, Brian Ichter, Pete Florence, Andy Zeng* [[pdf](https://arxiv.org/abs/2209.07753)], [[page](https://code-as-policies.github.io/)], 2022.9
@@ -121,6 +127,11 @@ This is a paper list on integrating large language models with embodied AI. Larg
 
   *Zihao Wang, Shaofei Cai, Anji Liu, Xiaojian Ma, Yitao Liang* [[pdf](https://arxiv.org/abs/2302.01560)], [[page](https://github.com/CraftJarvis/MC-Planner)], 2023.2
   <img align="center" height="20" src="https://img.shields.io/badge/DEPS-20b2aa?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game-gray?style=flat-square">
+  
+* **Collaborating with language models for embodied reasoning.** Preprint.
+
+  *Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, Brian Ichter* [[pdf](https://arxiv.org/abs/2207.05608)], [[page](https://innermonologue.github.io/)], 2023.2
   <img align="center" height="20" src="https://img.shields.io/badge/game-gray?style=flat-square">
 
 * **Voyager: An Open-Ended Embodied Agent with Large Language Models.** Preprint.
