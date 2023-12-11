@@ -83,7 +83,7 @@ This is a paper list on integrating large language models with embodied AI. Larg
 
 <br/>
 
-### LLM for Planning, Tool Using and Beyond (without training)
+### LLM for Planning, Tool Using and Beyond (w/o training)
 
 * **Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents.** ICML 2022.
 
@@ -134,6 +134,12 @@ This is a paper list on integrating large language models with embodied AI. Larg
   *Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, Brian Ichter* [[pdf](https://arxiv.org/abs/2207.05608)], [[page](https://innermonologue.github.io/)], 2023.2
   <img align="center" height="20" src="https://img.shields.io/badge/game-gray?style=flat-square">
 
+* **Plan, Eliminate, and Track - Language Models are Good Teachers for Embodied Agents.** Preprint.
+
+  *Yue Wu, So Yeon Min, Yonatan Bisk, Ruslan Salakhutdinov, Amos Azaria, Yuanzhi Li, Tom Mitchell, Shrimai Prabhumoye* [[pdf](https://arxiv.org/abs/2305.02412)], 2023.5
+  <img align="center" height="20" src="https://img.shields.io/badge/PET-20b2aa?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game-gray?style=flat-square">
+  
 * **Voyager: An Open-Ended Embodied Agent with Large Language Models.** Preprint.
 
   *Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Anima Anandkumar* [[pdf](https://arxiv.org/abs/2305.16291)], [[page](https://voyager.minedojo.org/)], 2023.5
@@ -161,16 +167,22 @@ This is a paper list on integrating large language models with embodied AI. Larg
 
   *Hongxin Zhang, Weihua Du, Jiaming Shan, Qinhong Zhou, Yilun Du, Joshua B. Tenenbaum, Tianmin Shu, Chuang Gan* [[pdf](https://arxiv.org/abs/2307.02485)], [[page](https://vis-www.cs.umass.edu/Co-LLM-Agents/)], 2023.7
   <img align="center" height="20" src="https://img.shields.io/badge/robot-gray?style=flat-square">
+
+* **Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach.** Preprint.
+
+  *Bin Hu, Chenyang Zhao, Pu Zhang, Zihao Zhou, Yuanhang Yang, Zenglin Xu, Bin Liu* [[pdf](https://arxiv.org/abs/2306.03604)], [[page](https://github.com/ZJLAB-AMMI/LLM4RL)], 2023.8
+  <img align="center" height="20" src="https://img.shields.io/badge/When2Ask--1-20b2aa?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game, robot-gray?style=flat-square">
   
 * **JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models.** Preprint.
 
   *Zihao Wang, Shaofei Cai, Anji Liu, Yonggang Jin, Jinbing Hou, Bowei Zhang, Haowei Lin, Zhaofeng He, Zilong Zheng, Yaodong Yang, Xiaojian Ma, Yitao Liang* [[pdf](https://arxiv.org/abs/2311.05997)], [[page](https://craftjarvis.org/JARVIS-1)], 2023.11
   <img align="center" height="20" src="https://img.shields.io/badge/JARVIS--1-20b2aa?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/game-gray?style=flat-square">
-  
+
 <br/>
 
-### LLM for Supervision
+### LLM for Guidance, Supervision and Beyond
 
 * **Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling.** ICML 2023.
 
