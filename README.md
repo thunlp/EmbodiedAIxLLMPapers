@@ -1,13 +1,15 @@
 # Embodied AI x LLM Papers
 
-This is a paper list on integrating large language models with embodied AI. Large language models have shown sparks of artificial general intelligence, but they are not grounded in the physical world, lacking human-like embodied intelligence. The integration of LLM with embodied AI is undertaken to address this challenge. Note that works without training the LLM for embodiment capabilities may not be included in this repository, such as using ChatGPT for planning, tool-using or supervision.
+This is a paper list on integrating large language models with embodied AI. Large language models have shown sparks of artificial general intelligence, but they are not grounded in the physical world, lacking human-like embodied intelligence. The integration of LLM with embodied AI is undertaken to address this challenge.
 
 ### Keywords Convention
 <p><img align="center" height="20" src="https://img.shields.io/badge/GATO-52b5f7?style=flat-square"> The abbreviation of the work. </p>
-<p><img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square"> The role LLM plays in the work. </p> 
+<p><img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square"> The role of LLM in the work. </p> 
 <p><img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square"> The mainly explored tasks of the work. </p>
 
 ## Papers
+
+### Embodied Model
 
 * **A Generalist Agent.** TMLR 2022.
 
@@ -70,3 +72,62 @@ This is a paper list on integrating large language models with embodied AI. Larg
   <img align="center" height="20" src="https://img.shields.io/badge/LEO-52b5f7?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/controller-green?style=flat-square">
   <img align="center" height="20" src="https://img.shields.io/badge/robot, robot--arm-20b2aa?style=flat-square">
+
+### Planning, Tool Using and Beyond (without training)
+
+* **Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents.** ICML 2022.
+
+  *Wenlong Huang, Pieter Abbeel, Deepak Pathak, Igor Mordatch* [[pdf](https://arxiv.org/abs/2201.07207)], [[page](https://huangwl18.github.io/language-planner)], 2023.1
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+
+* **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances.** CoRL 2022.
+
+  *Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil J Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Mengyuan Yan, Andy Zeng* [[pdf](https://arxiv.org/abs/2201.07207)], [[page](https://say-can.github.io/)], 2022.4
+  <img align="center" height="20" src="https://img.shields.io/badge/SayCan-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot-20b2aa?style=flat-square">
+  
+* **Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language.** ICLR 2023.
+
+  *Andy Zeng, Maria Attarian, Brian Ichter, Krzysztof Choromanski, Adrian Wong, Stefan Welker, Federico Tombari, Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke, Pete Florence* [[pdf](https://arxiv.org/abs/2204.00598)], 2022.4
+  <img align="center" height="20" src="https://img.shields.io/badge/SMs-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/tool-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-20b2aa?style=flat-square">
+
+* **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents.** NeurIPS 2023.
+
+  *Zihao Wang, Shaofei Cai, Anji Liu, Xiaojian Ma, Yitao Liang* [[pdf](https://arxiv.org/abs/2302.01560)], [[page](https://github.com/CraftJarvis/MC-Planner)], 2023.2
+  <img align="center" height="20" src="https://img.shields.io/badge/DEPS-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square">
+
+* **Voyager: An Open-Ended Embodied Agent with Large Language Models.** Preprint.
+
+  *Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Anima Anandkumar* [[pdf](https://arxiv.org/abs/2305.16291)], [[page](https://voyager.minedojo.org/)], 2023.5
+  <img align="center" height="20" src="https://img.shields.io/badge/Voyager-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square">
+
+* **Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory.** Preprint.
+
+  *Xizhou Zhu, Yuntao Chen, Hao Tian, Chenxin Tao, Weijie Su, Chenyu Yang, Gao Huang, Bin Li, Lewei Lu, Xiaogang Wang, Yu Qiao, Zhaoxiang Zhang, Jifeng Dai* [[pdf](https://arxiv.org/abs/2305.17144)], [[page](https://github.com/OpenGVLab/GITM)], 2023.5
+  <img align="center" height="20" src="https://img.shields.io/badge/GITM-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/planner-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game-20b2aa?style=flat-square">
+  
+* **VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models.** ICML 2022.
+
+  *Wenlong Huang, Chen Wang, Ruohan Zhang, Yunzhu Li, Jiajun Wu, Li Fei-Fei* [[pdf](https://arxiv.org/abs/2307.05973)], [[page](https://voxposer.github.io/)], 2023.7
+  <img align="center" height="20" src="https://img.shields.io/badge/VoxPoser-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/tool-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/robot--arm-20b2aa?style=flat-square">
+
+### Supervision
+
+* **Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling.** ICML 2023.
+
+  *Kolby Nottingham, Prithviraj Ammanabrolu, Alane Suhr, Yejin Choi, Hannaneh Hajishirzi, Sameer Singh, Roy Fox* [[pdf](https://arxiv.org/abs/2301.12050)], [[page](https://deckardagent.github.io/)], 2023.1
+  <img align="center" height="20" src="https://img.shields.io/badge/DECKARD-52b5f7?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/supervisor-green?style=flat-square">
+  <img align="center" height="20" src="https://img.shields.io/badge/game--arm-20b2aa?style=flat-square">
